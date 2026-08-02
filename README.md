@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/athexor/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0503-next-greater-element-ii](https://github.com/athexor/leetcode/tree/master/0503-next-greater-element-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/athexor/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 ## Stack
 |  |
 | ------- |
@@ -68,4 +69,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/athexor/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0513-find-bottom-left-tree-value](https://github.com/athexor/leetcode/tree/master/0513-find-bottom-left-tree-value) |
+## Binary Search
+|  |
+| ------- |
+| [0540-single-element-in-a-sorted-array](https://github.com/athexor/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 <!---LeetCode Topics End-->
