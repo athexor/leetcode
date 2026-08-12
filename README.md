@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/athexor/leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0203-remove-linked-list-elements](https://github.com/athexor/leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/athexor/leetcode/tree/master/0206-reverse-linked-list) |
+| [1472-design-browser-history](https://github.com/athexor/leetcode/tree/master/1472-design-browser-history) |
 ## Two Pointers
 |  |
 | ------- |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/athexor/leetcode/tree/master/0162-find-peak-element) |
 | [0503-next-greater-element-ii](https://github.com/athexor/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/athexor/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [1472-design-browser-history](https://github.com/athexor/leetcode/tree/master/1472-design-browser-history) |
 ## Stack
 |  |
 | ------- |
@@ -54,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/athexor/leetcode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/athexor/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0503-next-greater-element-ii](https://github.com/athexor/leetcode/tree/master/0503-next-greater-element-ii) |
+| [1472-design-browser-history](https://github.com/athexor/leetcode/tree/master/1472-design-browser-history) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -73,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0155-min-stack](https://github.com/athexor/leetcode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/athexor/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [1472-design-browser-history](https://github.com/athexor/leetcode/tree/master/1472-design-browser-history) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -101,4 +105,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/athexor/leetcode/tree/master/0074-search-a-2d-matrix) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/athexor/leetcode/tree/master/1472-design-browser-history) |
+## Data Stream
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/athexor/leetcode/tree/master/1472-design-browser-history) |
 <!---LeetCode Topics End-->
