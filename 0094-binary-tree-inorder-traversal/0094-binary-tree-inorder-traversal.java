@@ -15,18 +15,36 @@
  */
 class Solution {
     public List<Integer> inorderTraversal(TreeNode A) {
-        List<Integer> list = new ArrayList<>();
-        traverse(A, list);
-        return list;
-    }
+        if(A == null)
+            return new ArrayList<>();
 
-    public void traverse(TreeNode A, List list){
-        if(A == null){
-            return;
+        List<Integer> list = new ArrayList<>();
+        TreeNode curr = A;
+
+        while(curr != null){
+            
+            if(curr.left != null){
+                TreeNode temp = curr.left;
+
+                while(temp.right != null && temp.right != curr){
+                    temp = temp.right;
+                }
+
+                if(temp.right == null){
+                    temp.right = curr;
+                    curr = curr.left;
+                }else{
+                    temp.right = null;
+                    list.add(curr.val);
+                    curr = curr.right;
+                }   
+            }else{
+                list.add(curr.val); 
+                curr = curr.right;
+            }
+
         }
 
-        traverse(A.left, list);
-        list.add(A.val);
-        traverse(A.right, list);
+        return list;
     }
 }
