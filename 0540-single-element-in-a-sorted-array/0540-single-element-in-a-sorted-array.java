@@ -4,7 +4,7 @@ class Solution {
         int l = 0;
         int r = n-1;
 
-        while(l<=r){
+        while(l <= r){
             int mid = l+(r-l)/2;
             if(
                 (mid == 0   || A[mid] != A[mid-1]) &&
