@@ -11,11 +11,11 @@ class Solution {
 
     public TreeNode lowestCommonAncestor(TreeNode A, TreeNode B, TreeNode C) {
         if(!found(A, B) || !found(A, C))
-            return new TreeNode();
+            return null;
 
         TreeNode ans = traverse(A, B, C);
 
-        return (ans != null) ? ans : new TreeNode();
+        return (ans != null) ? ans : null;
     }
 
     public boolean found(TreeNode A, TreeNode B){
