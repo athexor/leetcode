@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/athexor/leetcode/tree/master/0088-merge-sorted-array) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/athexor/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/athexor/leetcode/tree/master/0162-find-peak-element) |
+| [0217-contains-duplicate](https://github.com/athexor/leetcode/tree/master/0217-contains-duplicate) |
 | [0503-next-greater-element-ii](https://github.com/athexor/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/athexor/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [1472-design-browser-history](https://github.com/athexor/leetcode/tree/master/1472-design-browser-history) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/athexor/leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/athexor/leetcode/tree/master/0148-sort-list) |
+| [0217-contains-duplicate](https://github.com/athexor/leetcode/tree/master/0217-contains-duplicate) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -166,4 +168,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/athexor/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/athexor/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Hash Table
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/athexor/leetcode/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
