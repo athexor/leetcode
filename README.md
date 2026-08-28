@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/athexor/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0088-merge-sorted-array](https://github.com/athexor/leetcode/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/athexor/leetcode/tree/master/0125-valid-palindrome) |
 | [0148-sort-list](https://github.com/athexor/leetcode/tree/master/0148-sort-list) |
 | [0876-middle-of-the-linked-list](https://github.com/athexor/leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/athexor/leetcode/tree/master/0020-valid-parentheses) |
+| [0125-valid-palindrome](https://github.com/athexor/leetcode/tree/master/0125-valid-palindrome) |
 ## Math
 |  |
 | ------- |
