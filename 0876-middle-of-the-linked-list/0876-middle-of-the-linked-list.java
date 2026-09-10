@@ -23,13 +23,14 @@ class Solution {
 }
 
 /**
- * Done. No need to handle the head == null condition,
+ * No need to handle the head == null condition,
  * as the while loop already handles this case.
  *
- * In the brute force solution, we have to traverse n times first to count
- * the number of elements, then jump n/2 times starting from index 0:
+ * If head is null:
+ *     sP = null, fP = null
+ *     while condition (fP != null) becomes false
+ *     loop will not execute, sP (null) is returned directly.
  *
- * for (i = 0; i <= n/2 - 1; i++)
- *
- * i.e., jump = 0; jump <= n/2 - 1; jump++
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */
