@@ -9,29 +9,28 @@
  * }
  */
 class Solution {
-    public ListNode mergeTwoLists(ListNode A, ListNode B) {
-        if(A == null && B == null)
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        if(list1 == null && list2 == null)
             return null;
 
-        if(A == null)
-            return B;
+        if(list1 == null)
+            return list2;
+        else if(list2 == null)
+            return list1;
+
+        ListNode temp1 = list1;
+        ListNode temp2 = list2;
+        ListNode temp3 = null;
         
-        if(B == null)
-            return A;
-
-        ListNode temp1 = A;
-        ListNode temp2 = B;
-        ListNode C = null;
-
-        if(temp1.val <= temp2.val){
-            C = temp1;
+        if(list1.val <= list2.val){
+            temp3 = temp1;
             temp1 = temp1.next;
         }else{
-            C = temp2;
+            temp3 = temp2;
             temp2 = temp2.next;
         }
 
-        ListNode temp3 = C;
+        ListNode list3 = temp3;
 
         while(temp1 != null && temp2 != null){
             if(temp1.val <= temp2.val){
@@ -56,6 +55,13 @@ class Solution {
             temp3 = temp3.next;
         }
 
-        return C;
+        return list3;
     }
 }
+
+/**
+ * else if(list2 == null) -> we can do only if as well instead of else if.
+ *
+ * Time Complexity: O(n + m)
+ * Space Complexity: O(1)
+ */
