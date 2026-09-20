@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/athexor/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/athexor/leetcode/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/athexor/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/athexor/leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/athexor/leetcode/tree/master/0088-merge-sorted-array) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/athexor/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/athexor/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -207,8 +208,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/athexor/leetcode/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/athexor/leetcode/tree/master/0078-subsets) |
 ## Bracket Sequences
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/athexor/leetcode/tree/master/0022-generate-parentheses) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/athexor/leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
