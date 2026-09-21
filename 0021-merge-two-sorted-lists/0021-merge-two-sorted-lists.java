@@ -60,8 +60,21 @@ class Solution {
 }
 
 /**
- * else if(list2 == null) -> we can do only if as well instead of else if.
+ * Approach: Two Pointers (Merge Step of Merge Sort).
  *
- * Time Complexity: O(n + m)
- * Space Complexity: O(1)
+ * Line 18: else if(list2 == null) -> we can do only if as well instead of else if.
+ *
+ * Time Complexity: O(n + m) in all cases --
+ *                   every node from both lists is visited and attached
+ *                   to list3 exactly once. Even in the "lucky" case where
+ *                   one list is fully smaller/larger than the other, the
+ *                   trailing while loops still walk through the remaining
+ *                   nodes one by one to relink them -- there's no shortcut
+ *                   like "attach the rest of the list in O(1)", since each
+ *                   node's `next` pointer must be individually reassigned.
+ *
+ * Space Complexity: O(1) --
+ *                   no new nodes are created; existing nodes are relinked
+ *                   in place using a constant number of pointers
+ *                   (temp1, temp2, temp3, list3).
  */
