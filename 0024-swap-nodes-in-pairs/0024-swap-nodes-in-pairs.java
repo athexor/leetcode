@@ -18,14 +18,13 @@ class Solution {
         ListNode prevGroupTail = null;
 
         while(temp != null && temp.next != null){
-            ListNode oldGroupHead = temp;
             ListNode newGroupHead = swap(temp, temp.next);
 
             if(prevGroupTail != null)
                 prevGroupTail.next = newGroupHead;
 
-            prevGroupTail = oldGroupHead;
-            temp = newGroupHead.next.next;
+            prevGroupTail = temp;
+            temp = temp.next;
         }
         
         return newHead;
@@ -37,3 +36,19 @@ class Solution {
         return temp2;
     }
 }
+
+/**
+ * Approach: Iterative pairwise swap using a helper swap() function,
+ * stitching each swapped pair to the previous one via prevGroupTail.
+ *
+ * Line 13: if(head == null || head.next == null) -> nothing to swap when
+ * the list is empty or has only one node, so return head as-is.
+ *
+ * Time Complexity: O(n) in all cases --
+ *                   each node is visited and processed exactly once,
+ *                   regardless of node values.
+ *
+ * Space Complexity: O(1) --
+ *                   no extra data structures; pairs are swapped in place
+ *                   using a constant number of pointers.
+ */
