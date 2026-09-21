@@ -47,3 +47,18 @@ class Solution {
         return newHead;
     }
 }
+
+/*
+ * Approach: Simulate digit-by-digit addition (elementary school addition),
+ * building the result list node by node while tracking carry.
+ *
+ * Time Complexity: O(max(n, m)) in all cases --
+ *                   n and m being the lengths of l1 and l2; every digit
+ *                   position is visited exactly once regardless of values,
+ *                   plus possibly one extra node for a final carry.
+ *
+ * Space Complexity: O(max(n, m)) --
+ *                   for the newly created output list (not counting the
+ *                   input lists), since the result has at most
+ *                   max(n, m) + 1 digits.
+ */
