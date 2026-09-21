@@ -37,12 +37,6 @@ class Solution {
             temp2 = temp2.next;
         } 
 
-        while(temp1 != null && temp1.next != null){
-            if(temp1.val != temp1.next.val)
-                return false;
-            temp1 = temp1.next.next;
-        }
-
         return true;
     }
 
@@ -72,6 +66,21 @@ class Solution {
  * since it is always called with sP, which will never be null
  * (the slow pointer always lands on a valid node).
  *
- * Time Complexity: O(n)
+ * list1 (first half) is always <= list2 (reversed second half) in length,
+ * since for odd-length lists the middle node ends up in list2, not list1.
+ * So temp1 always hits null first (or with temp2, if n is even), leaving
+ * at most one leftover node in list2 -- which trivially matches itself.
+ * That's why the old trailing while(temp1 != null ...) loop was dead code.
+ *
+ * Time Complexity: O(N)
+ *                  - Finding the middle node takes O(N/2).
+ *                  - Reversing the second half takes O(N/2).
+ *                  - Comparing the two halves takes O(N/2).
+ *                  - All linear passes, so overall O(N).
+ *
  * Space Complexity: O(1)
+ *                   - No extra data structure is used to store nodes;
+ *                     only a fixed number of pointers (sP, fP, prev,
+ *                     list1, list2, temp1, temp2) are maintained,
+ *                     regardless of input size.
  */
