@@ -91,13 +91,26 @@ class Solution {
 }
 
 /**
- * sortList: if(head == null) -> handles the empty-list case before recursion starts.
+ * Approach: Merge Sort (Fast & Slow Pointers to split + mergeTwoLists to combine).
  *
- * mergeSort: if(head.next == null) -> base case, a single node is already "sorted",
- * so recursion stops here.
+ * Line 12: if(head == null) -> only needed in sortList (entry point) to
+ * handle an empty list. mergeSort never receives a null head: list1 is
+ * just `head` (non-null, since it passed the base case), and list2 is
+ * `sP`, which always lands on a real node as it only advances while
+ * fP/fP.next are non-null.
  *
- * mergeTwoLists: else if(list2 == null) -> we can do only if as well instead of else if.
+ * Line 19: if(head.next == null) -> base case, a single node is already
+ * "sorted", so recursion stops here.
  *
- * Time Complexity: O(n log n)
- * Space Complexity: O(log n)
+ * Line 60: else if(list2 == null) -> we can do only if as well instead of else if.
+ *
+ * Time Complexity: O(n log n) in all cases --
+ *                   list is split in half at each level (log n levels),
+ *                   and merging all sublists at each level costs O(n)
+ *                   total. So n work * log n levels = O(n log n).
+ *
+ * Space Complexity: O(log n) --
+ *                   no extra arrays/nodes allocated; recursive calls
+ *                   to mergeSort add O(log n) stack frames, one per
+ *                   split level.
  */
