@@ -56,6 +56,8 @@ class Solution {
 
 /**
 /**
+ * Approach: Fast & Slow Pointers + In-place Reversal.
+ *
  * if(head == null) -> empty list, return false.
  * if(head.next == null) -> single-node list is trivially a palindrome,
  * return true. 
