@@ -23,6 +23,8 @@ class Solution {
 }
 
 /**
+ * Approach: Fast & Slow Pointers.
+ *
  * No need to handle the head == null condition,
  * as the while loop already handles this case.
  *
