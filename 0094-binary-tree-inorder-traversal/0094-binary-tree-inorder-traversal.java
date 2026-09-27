@@ -14,10 +14,10 @@
  * }
  */
 class Solution {
-    public List<Integer> inorderTraversal(TreeNode A) {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        TreeNode curr = root;
         List<Integer> list = new ArrayList<>();
-        TreeNode curr = A;
-        
+
         while(curr != null){
             if(curr.left != null){
                 TreeNode temp = curr.left;
@@ -33,6 +33,7 @@ class Solution {
                     temp.right = null;
                     curr = curr.right;
                 }
+
             }else{
                 list.add(curr.val);
                 curr = curr.right;
@@ -44,17 +45,21 @@ class Solution {
 }
 
 /**
+ * Approach: Morris Inorder Traversal (Threaded Binary Tree).
  *
- * No need to check if the tree is null separately.
- * if(A == null)
- *     return new ArrayList<>();
+ * We don't need to explicitly handle the A == null case since the
+ * while(curr != null) loop already handles it naturally (loop just
+ * won't execute, returns empty array). Also, constraints often
+ * mention minimum 1 node, so tree won't be empty anyway.
  *
- * The while(curr != null) condition already handles it.
- * If A is null:
- *     curr = null
- *     while condition becomes false
- *     loop will not execute.
+ * Time Complexity: O(N) --
+ *                   each edge in the tree is traversed at most twice
+ *                   (once to create the thread, once to remove it),
+ *                   so the total work across all nodes is linear.
  *
- * Time Complexity: O(n)
- * Space Complexity: O(1)
+ * Space Complexity: O(1) --
+ *                   no recursion stack or explicit stack is used;
+ *                   only a constant number of pointers (curr, temp)
+ *                   and the output list, which doesn't count as extra
+ *                   space since it's the required output.
  */
