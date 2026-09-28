@@ -15,9 +15,6 @@
  */
 class Solution {
     public void recoverTree(TreeNode root) {
-        if(root == null)
-            return;
-
         TreeNode curr = root;
         TreeNode prev = null;
         TreeNode first = null;
@@ -59,3 +56,23 @@ class Solution {
         secound.val = temp;
     }
 }
+
+/**
+ * Approach: Morris Inorder Traversal (Threaded Binary Tree).
+ *
+ * We don't need to explicitly handle the A == null case since the
+ * while(curr != null) loop already handles it naturally. Also,
+ * constraints mention minimum 2 node, and it's guaranteed that 
+ * exactly two nodes are swapped, so no null check is needed.  *
+ *
+ * Time Complexity: O(N) --
+ *                   each edge is traversed at most twice (once to create
+ *                   the thread, once to remove it), so total work is linear.
+ *                   The thread is always removed before moving on, so the
+ *                   tree is fully restored at the end.
+ *
+ * Space Complexity: O(1) --
+ *                   no recursion stack or explicit stack; only a constant
+ *                   number of pointers (curr, temp, prev, first, second).
+ *                   This meets the problem's constant space requirement.
+ */
