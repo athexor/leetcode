@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/athexor/leetcode/tree/master/0217-contains-duplicate) |
 | [0503-next-greater-element-ii](https://github.com/athexor/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/athexor/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [1167-minimum-cost-to-connect-sticks](https://github.com/athexor/leetcode/tree/master/1167-minimum-cost-to-connect-sticks) |
 | [1472-design-browser-history](https://github.com/athexor/leetcode/tree/master/1472-design-browser-history) |
 ## Stack
 |  |
@@ -217,4 +218,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/athexor/leetcode/tree/master/0078-subsets) |
+## Greedy
+|  |
+| ------- |
+| [1167-minimum-cost-to-connect-sticks](https://github.com/athexor/leetcode/tree/master/1167-minimum-cost-to-connect-sticks) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1167-minimum-cost-to-connect-sticks](https://github.com/athexor/leetcode/tree/master/1167-minimum-cost-to-connect-sticks) |
 <!---LeetCode Topics End-->
