@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/athexor/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/athexor/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/athexor/leetcode/tree/master/0035-search-insert-position) |
+| [0049-group-anagrams](https://github.com/athexor/leetcode/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/athexor/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/athexor/leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/athexor/leetcode/tree/master/0088-merge-sorted-array) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/athexor/leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/athexor/leetcode/tree/master/0022-generate-parentheses) |
+| [0049-group-anagrams](https://github.com/athexor/leetcode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/athexor/leetcode/tree/master/0125-valid-palindrome) |
 ## Math
 |  |
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/athexor/leetcode/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/athexor/leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/athexor/leetcode/tree/master/0148-sort-list) |
 | [0217-contains-duplicate](https://github.com/athexor/leetcode/tree/master/0217-contains-duplicate) |
@@ -198,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/athexor/leetcode/tree/master/0049-group-anagrams) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/athexor/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0160-intersection-of-two-linked-lists](https://github.com/athexor/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/athexor/leetcode/tree/master/0217-contains-duplicate) |
