@@ -21,7 +21,7 @@ class Solution {
         if(totalSum % 2 != 0)
             return false;
 
-        solve(root, totalSum, true);
+        solve(root, totalSum/2, true);
 
         return found;
     }
@@ -33,14 +33,14 @@ class Solution {
         return root.val + getTotalSum(root.left) + getTotalSum(root.right);
     }
 
-    private int solve(TreeNode root, int totalSum, boolean isRoot){
+    private int solve(TreeNode root, int targetSum, boolean isRoot){
         if(root == null)
             return 0;
         
-        int leftSum = solve(root.left, totalSum, false);
-        int rightSum = solve(root.right, totalSum, false);
+        int leftSum = solve(root.left, targetSum, false);
+        int rightSum = solve(root.right, targetSum, false);
         int sum = root.val + leftSum + rightSum;
-        if(!isRoot && sum == totalSum/2)
+        if(!isRoot && sum == targetSum)
             found = true;
 
         return sum;
